@@ -12,13 +12,13 @@
 				<key>background</key>
 				<string>#FFFFFF</string>
 				<key>caret</key>
-				<string>#FF0000</string>
+				<string>#FF7722</string>
 				<key>foreground</key>
 				<string>#000000</string>
 				<key>invisibles</key>
 				<string>#BFBFBF</string>
 				<key>lineHighlight</key>
-				<string>#FF000022</string>
+				<string>#FF000011</string>
 				<key>selection</key>
 				<string>#BCD5FA</string>
                 <key>gutter</key>
@@ -29,6 +29,21 @@
                 <string>#00000022</string>
                 <key>stackedGuide</key>
                 <string>#990000</string>
+
+                <!-- #0add02 -->
+                <key>bracketsForeground</key>
+                <string>#09cc01</string>
+                <key>bracketsOptions</key>
+                <string>underline foreground</string>
+                <key>bracketContentsForeground</key>
+                <string>#000000</string> <!-- #0add02 -->
+                <key>bracketContentsOptions</key>
+                <string>foreground</string> <!-- string>underline foreground</string -->
+                <key>tagsForeground</key>
+                <string>#09cc01</string> <!-- #0add02 -->
+                <key>tagsOptions</key> 
+                <string>foreground</string>
+
 			</dict>
 		</dict>
         <dict>
@@ -736,6 +751,28 @@
             <dict>
                 <key>background</key>
                 <string>#FF000022</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Ensime Error</string>
+            <key>scope</key>
+            <string>invalid.illegal</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E52D00</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Ensime Breakpoint</string>
+            <key>scope</key>
+            <string>ensime.breakpoint</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#269CB5</string>
             </dict>
         </dict>
 	</array>
